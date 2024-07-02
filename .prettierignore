@@ -1,0 +1,7 @@
+nonode_modules
+artifacts
+cache
+.env
+.*
+README.md
+coverage.json
