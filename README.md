@@ -1,13 +1,8 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
+# Sample Smart Contract Project
+A deployer deployer a contrant when funders want to buy something from deployer in real, to use this contract to make sure that the funders will not welch.
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+yarn test
+yarn test:staging
+yarn hardhat coverage
 ```
